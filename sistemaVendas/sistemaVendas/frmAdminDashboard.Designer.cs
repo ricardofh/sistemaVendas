@@ -49,7 +49,7 @@
             this.pnlFooter.Controls.Add(this.label1);
             this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlFooter.Location = new System.Drawing.Point(0, 643);
-            this.pnlFooter.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pnlFooter.Margin = new System.Windows.Forms.Padding(5);
             this.pnlFooter.Name = "pnlFooter";
             this.pnlFooter.Size = new System.Drawing.Size(1333, 49);
             this.pnlFooter.TabIndex = 0;
@@ -156,7 +156,7 @@
             this.Controls.Add(this.menuStripTop);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStripTop;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmAdminDashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Painel Administrativo";

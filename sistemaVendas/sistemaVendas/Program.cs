@@ -16,7 +16,7 @@ namespace sistemaVendas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAdminDashboard());
+            Application.Run(new frmUserDashboard());
         }
     }
 }
