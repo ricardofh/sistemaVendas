@@ -1,0 +1,10 @@
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\sistemaVendas.exe.config
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\sistemaVendas.exe
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\sistemaVendas.pdb
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.csprojAssemblyReference.cache
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.frmAdminDashboard.resources
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.Properties.Resources.resources
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.csproj.GenerateResource.cache
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.csproj.CoreCompileInputs.cache
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.exe
+D:\Área de Trabalho\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.pdb
