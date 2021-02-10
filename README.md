@@ -1,2 +1,2 @@
 # sistemaVendas
- sistemas simles de vendas feito em C#
+ sistemas simples de vendas feito em C#
