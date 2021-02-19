@@ -19,3 +19,8 @@ D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug
 D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.exe
 D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.pdb
 D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.frmUserDashboard.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmUsers.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\System.Data.SqlClient.dll
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\System.Data.SqlClient.xml
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.csproj.CopyComplete
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmLogin.resources
