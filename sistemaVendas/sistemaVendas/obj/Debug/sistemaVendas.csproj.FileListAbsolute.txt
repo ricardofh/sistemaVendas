@@ -24,3 +24,10 @@ D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug
 D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\System.Data.SqlClient.xml
 D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.csproj.CopyComplete
 D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmLogin.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmCategoria.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmProduto.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmCliente.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\obj\Debug\sistemaVendas.UIform.frmVenda.resources
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\BouncyCastle.Crypto.dll
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\itextsharp.dll
+D:\Área de Trabalho\projeto\sistemaVendas\sistemaVendas\sistemaVendas\bin\Debug\itextsharp.xml

@@ -20,7 +20,7 @@ namespace sistemaVendas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
 
         private void FaturaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -42,6 +42,30 @@ namespace sistemaVendas
         private void LblLoggedInUser_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void CategoriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCategoria categoria = new frmCategoria();
+            categoria.Show();
+        }
+
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            DateTime datetime = DateTime.Now;
+            this.lbldatetime.Text = datetime.ToString();
+        }
+
+        private void ProdutosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProduto produto = new frmProduto();
+            produto.Show();
+        }
+
+        private void ClienteRevendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCliente cliente = new frmCliente();
+            cliente.Show();
         }
     }
 }

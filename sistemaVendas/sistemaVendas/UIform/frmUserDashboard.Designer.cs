@@ -32,6 +32,7 @@
             this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clienteRevendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblUser = new System.Windows.Forms.Label();
             this.lblLoggedInUser = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
@@ -46,7 +47,8 @@
             this.menuStripTop.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuariosToolStripMenuItem,
             this.categoriasToolStripMenuItem,
-            this.produtosToolStripMenuItem});
+            this.produtosToolStripMenuItem,
+            this.clienteRevendedorToolStripMenuItem});
             this.menuStripTop.Location = new System.Drawing.Point(0, 0);
             this.menuStripTop.Name = "menuStripTop";
             this.menuStripTop.Size = new System.Drawing.Size(800, 24);
@@ -65,12 +67,20 @@
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
             this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.categoriasToolStripMenuItem.Text = "Venda";
+            this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.CategoriasToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
             this.produtosToolStripMenuItem.Size = new System.Drawing.Size(72, 20);
             this.produtosToolStripMenuItem.Text = "Inventario";
+            // 
+            // clienteRevendedorToolStripMenuItem
+            // 
+            this.clienteRevendedorToolStripMenuItem.Name = "clienteRevendedorToolStripMenuItem";
+            this.clienteRevendedorToolStripMenuItem.Size = new System.Drawing.Size(128, 20);
+            this.clienteRevendedorToolStripMenuItem.Text = "Cliente | Revendedor";
+            this.clienteRevendedorToolStripMenuItem.Click += new System.EventHandler(this.ClienteRevendedorToolStripMenuItem_Click);
             // 
             // lblUser
             // 
@@ -164,5 +174,6 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Panel pnlFooter;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem clienteRevendedorToolStripMenuItem;
     }
 }

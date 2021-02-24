@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAdminDashboard));
             this.pnlFooter = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,6 +42,9 @@
             this.lblUser = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lbldatetime = new System.Windows.Forms.Label();
+            this.clienteRevendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlFooter.SuspendLayout();
             this.menuStripTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -75,6 +79,7 @@
             this.usuariosToolStripMenuItem,
             this.categoriasToolStripMenuItem,
             this.produtosToolStripMenuItem,
+            this.clienteRevendedorToolStripMenuItem,
             this.faturaToolStripMenuItem,
             this.transaçãoToolStripMenuItem});
             this.menuStripTop.Location = new System.Drawing.Point(0, 0);
@@ -95,12 +100,14 @@
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
             this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
             this.categoriasToolStripMenuItem.Text = "Categorias";
+            this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.CategoriasToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
             this.produtosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.produtosToolStripMenuItem.Text = "Produtos";
+            this.produtosToolStripMenuItem.Click += new System.EventHandler(this.ProdutosToolStripMenuItem_Click);
             // 
             // faturaToolStripMenuItem
             // 
@@ -160,11 +167,31 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
+            // lbldatetime
+            // 
+            this.lbldatetime.AutoSize = true;
+            this.lbldatetime.Location = new System.Drawing.Point(1264, 9);
+            this.lbldatetime.Name = "lbldatetime";
+            this.lbldatetime.Size = new System.Drawing.Size(0, 20);
+            this.lbldatetime.TabIndex = 6;
+            // 
+            // clienteRevendedorToolStripMenuItem
+            // 
+            this.clienteRevendedorToolStripMenuItem.Name = "clienteRevendedorToolStripMenuItem";
+            this.clienteRevendedorToolStripMenuItem.Size = new System.Drawing.Size(128, 20);
+            this.clienteRevendedorToolStripMenuItem.Text = "Cliente | Revendedor";
+            this.clienteRevendedorToolStripMenuItem.Click += new System.EventHandler(this.ClienteRevendedorToolStripMenuItem_Click);
+            // 
             // frmAdminDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1333, 692);
+            this.Controls.Add(this.lbldatetime);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblUser);
@@ -203,6 +230,9 @@
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lbldatetime;
+        private System.Windows.Forms.ToolStripMenuItem clienteRevendedorToolStripMenuItem;
     }
 }
 
